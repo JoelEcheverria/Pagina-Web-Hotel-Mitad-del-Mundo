@@ -1,0 +1,941 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hotel Mitad Del Mundo</title>
+  <meta content="width=device-width, initial-scale=1.0" name="ProyectoWebt">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="inicio/img/favicon.png" rel="icon">
+  <link href="inicio/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="inicio/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="inicio/lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="inicio/lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="inicio/lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="inicio/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="inicio/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="inicio/lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  
+  <link href="Inicio/css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="Inicio/css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="Inicio/css/responsive.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example" onload="analizarLogueo()">
+
+  <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <h1><span>H</span>otel Mitad del Mundo</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+								</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="servicios.html">Servicios</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="reservas.html">Reservas</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="galeria.html">Galería</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="restaurante.html">Restaurante</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="contactos.html">Contactos</a>
+                  </li>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="usuariologed">Usuario<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href=# id="nomb">nombre apellido</a></li>
+                      <li><a href=# onclick="logout()">Cerrar Sesión</a></li>
+                    </ul> 
+                  </li>
+
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+
+
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="Inicio/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="Inicio/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+        <img src="Inicio/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">BIENVENIDO </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Hotel Mitad Del Mundo Has Tus Reservaciones Aquí</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="Login/login.html">Ingresa con tu cuenta</a>
+                  <a class="ready-btn page-scroll" href="Registro/registro.html">Crear cuenta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1" >DISFRUTA</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Los mejores servicios del país</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="Login/login.html">Ingresa con tu cuenta</a>
+                  <a class="ready-btn page-scroll" href="Registro/registro.html">Crear cuenta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">NO TE QUEDES SIN RESERVACIONES</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Hospedaje las 24 horas del día</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="Login/login.html">Ingresa con tu cuenta</a>
+                  <a class="ready-btn page-scroll" href="Registro/registro.html">Crear cuenta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>CONOCE NUESTRA HISTORIA</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+              <a href="#">
+								  <img src="Inicio/img/hotel2.jpg" width="500" height="500" alt="">
+								</a>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <a href="#">
+                <h4 class="sec-head">Hotel Mitad del Mundo</h4>
+              </a>
+              <p>
+                Descubre por qué tantos viajeros ven Hotel Mitad del Mundo como 
+                el hotel pequeño ideal cuando visitan Cayambe. Además de aportar la combinación 
+                ideal de calidad, comodidad y ubicación, ofrece una amplia variedad de servicios
+                diseñados para viajeros como tú.
+                Hotel Mitad del Mundo ofrece recepción abierta 24 horas y espacio para guardar el equipaje. 
+                Además, como huésped de Hosteria Mitad del Mundo puedes disfrutar de restaurante disponible allí mismo. 
+                Los huéspedes que lleguen en coche tienen acceso a parking gratis.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa fa-check"></i> Un excelente lugar para descansar
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Habitaciones comodos
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Contamos con nuestro propio garaje
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Piscinas, Restaurante y Area verde
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Para que descanses como nunca
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+              <a href="#">
+								  <img src="Inicio/img/HOTEL 1.jpg" width="500" height="500" alt="">
+								</a>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <a href="#">
+                <h4 class="sec-head">Un Lugar Para Descansar</h4>
+              </a>
+              <p>
+                Todos necesitamos algún momento para estar solos, para disfrutar de la lectura, de la música que nos gusta, practicar la meditación o ver un poco la tele sin nadie más alrededor. Cuando se vive en un apartamento pequeño esto es difícil de conseguir porque siempre hay alguien cerca. Si se tienen niños, la intimidad es todo un lujo para la pareja, para cuánto más para uno solo.
+                <p>
+                Pero incluso cuando se vive en pareja, a veces la casa solo tiene la sala de estar y el dormitorio y hay que buscar un área para que uno de los dos pueda pasar un rato a solas con sus cosas. Crear un área de descanso en el dormitorio para hacer este tipo de cosas es vital para poder tener una necesaria intimidad.
+
+              </p>
+              <p>El sabio posee un gran conocimiento sobre sí mismo, y su meta es autoconquistarse y no conquistar a los otros. El sabio es contemplado con respeto porque respeta a los demás. Sus palabras son poesía y siempre regala frases de la vida para el recuerdo.</p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;" >
+    <iframe width="800" height="460" style="float: center;" src="https://www.youtube.com/embed/IB9p4PeXqPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+              <a href="#">
+								  <img src="Inicio/img/b.jpg" width="500" height="500" alt="">
+								</a>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <a href="#">
+                <h4 class="sec-head">Compitiendo con los mejores Hoteles del Mundo</h4>
+              </a>
+              <p>
+                El turismo se ha convertido en una importante fuente de ingresos y un sector que despunta por encima de otros en diferentes ciudades y países. De hecho la industria de la hostelería es la encargada de dar servicio anualmente a millones de viajeros alrededor del mundo.
+
+                Si formas parte del equipo de trabajo de este sector, estarás al día de los entresijos de una industria en auge. En caso de ser nuevo en la misma y hallarse en el proceso de apertura de algún negocio o necesitas mejorar el rendimiento del mismo,  
+              <p>
+                La llegada de Internet a la población en general y el uso en ocasiones un tanto desmedido del mismo han favorecido al negocio hotelero. Conscientes de ello los empresarios hoteleros han sucumbido a diferentes campañas de marketing y a la inclusión en los distintos portales de ofertas hoteleras, ya que ello conlleva un mayor reconocimiento del hotel y sus servicios. En consecuencia, ingresos más altos que los de tus adversarios de negocio.
+              </p>              
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+              <a href="#">
+								  <img src="Inicio/img/h.jpg" width="500" height="500" alt="">
+								</a>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <a href="#">
+                <h4 class="sec-head">Siempre pensando en ti </h4>
+              </a>
+              <p>
+                Por ello, el trato del personal al servicio del hotel, la limpieza, el minucioso cuidado de los servicios de comida y el adecuado personal de entretenimiento y animación, son factores que no deben descuidarse ni un solo momento. Situaciones todas ellas que te harán destacar sobre el resto de hoteles de la zona.
+              </p>
+              <p>Ante una competencia cada vez más feroz, es importante manejar con soltura la empatía. Un trabajo impecable del personal de recepción es otro de los imprescindibles. El manejo de idiomas así como la capacidad para resolver cualquier tipo de conflicto, queja o demanda de la clientela son algunas de las características de las que deben disponer dichos trabajadores. Este hecho hará que incremente la valoración del hotel con respecto a la competencia.  </p>
+              <p>Pequeños consejos que pueden marcar la diferencia si entre sus propósitos está el de adelantar a tu competencia hotelera.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <div id="slider-direction-3" class="slider-direction slider-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="slider-content">
+            <!-- layer 1 -->
+            <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              <h2 class="title1">NO TE QUEDES SIN RESERVACIONES</h2>
+            </div>
+            <!-- layer 2 -->
+            <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+              <h1 class="title2">Hospedaje las 24 horas del día</h1>
+            </div>
+            <!-- layer 3 -->
+            <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+              <a class="ready-btn right-btn page-scroll" href="#services">Ingresa con tu cuenta</a>
+              <a class="ready-btn page-scroll" href="#about">Crear cuenta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End Slider Area -->
+
+<!-- Start About area -->
+
+                   
+  <!-- End Service area -->
+
+  <!-- our-skill-area start -->
+  
+  <!-- our-skill-area end -->
+
+  <!-- Faq area start -->
+  
+            
+  <!-- End Faq Area -->
+
+  <!-- Start Wellcome Area -->
+  <div class="wellcome-area">
+    <div class="well-bg">
+      <div class="test-overly"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="wellcome-text">
+              <div class="well-text text-center">
+                <h2>BIENVENIDOS A NUESTROS SERVICIOS HOTELEROS</h2>
+                <p>
+                  Todos necesitamos algún momento para estar solos, para disfrutar de la lectura, de la música que nos gusta, practicar la meditación o ver un poco la tele sin nadie más alrededor
+                </p>
+                <div class="subs-feilds">
+                  <div class="suscribe-input">
+                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
+                    <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
+                    <div id="msg_Submit" class="h3 text-center hidden"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Wellcome Area -->
+
+  <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>NUESTROS CLIENTES SATISFECHOS</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="Inicio/img/joel.jpeg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="https://web.facebook.com/sjoeleche">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Joel Echeverria</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="Inicio/img/jessica.jpeg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Jessica Catucuamba</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="Inicio/img/alex (1).jpeg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Alex Guasga</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="Inicio/img/juan.jpeg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="https://web.facebook.com/juan.chimarro.7">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=RLQQM7voqRA">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/juan1992ldu?igshid=1cwmx0npdi1zl">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>ING. Juan Chimarro</h4>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team Area -->
+
+  <!-- Start reviews Area -->
+  <!-- End reviews Area -->
+
+  <!-- Start portfolio Area -->
+  <div id="portfolio" class="portfolio-area area-padding fix">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>PUEDES DISFRUTAR</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start Portfolio -page -->
+        <div class="awesome-project-1 fix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu ">
+              <ul class="project-menu">
+                <li>
+                  <a href="#" class="active" data-filter="*">Todos los servicios</a>
+                </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="awesome-project-content">
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/h.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/h.jpg">
+                      <h4>Habitaciones</h4>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/re1.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/portfolio/2.jpg">
+                      <h4>Restaurante</h4>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/gin.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/portfolio/3.jpg">
+                      <h4>Gignasio</h4>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/are.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/portfolio/4.jpg">
+                      <h4>Areas Verdes</h4>
+                      
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 development">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/pis.jpg" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/portfolio/5.jpg">
+                      <h4>Piscinas</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="Inicio/img/par.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="Inicio/img/portfolio/6.jpg">
+                      <h4>Nuestro Parquedero</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contact-area">
+    <div class="contact-inner area-padding">
+      <div class="contact-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Contactos</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-mobile"></i>
+                <p>
+                  Call: 0981098335<br>
+                  <span>Lunes a Domingo (24 HRS)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-envelope-o"></i>
+                <p>
+                  Email: mitaddelmundoecuador_@hotmail.com<br>
+                  <span>Web: www.booking.com/hotel/ec/hosteria-mitad-del-mundo.es.html</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-map-marker"></i>
+                <p>
+                  Direcciòn: Carr. Panamericana, Cayambe<br>
+                  <span>Cayambe-Ecuador</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <!-- Start Google Map -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <!-- Start Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0232614447386!2d-78.14796223934975!3d0.0359834234239413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a0857ccd5dadb%3A0x37d97cb1d8112f81!2sHosteria%20Mitad%20Del%20Mundo!5e0!3m2!1ses!2sec!4v1617232355080!5m2!1ses!2sec" width="550" height="400" style="border:10px;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- End Map -->
+          </div>
+          <!-- End Google Map -->
+
+          <!-- Start  contact -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form contact-form">
+              <div id="sendmessage">Mensaje Enviado Gracias</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombres" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+              </form>
+            </div>
+          </div>
+          <!-- End Left contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>visita</span>NUESTRAS REDES SOCIALES</h2>
+                </div>
+
+                <p>Para mayor informacion e informacion puedes visitar nuestras redes sociales, mantente informado de nuestras actualizaciones</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://web.facebook.com/Hostal-Mitad-del-Mundo-656385264432038/"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/mitadmundo?lang=es"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.tripadvisor.es/Hotel_Review-g940020-d10671502-Reviews-Hosteria_Mitad_del_Mundo-Cayambe_Pichincha_Province.html"><i class="fa fa-google"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/mitaddelmundoec/?hl=es-la"><i class="fa fa-instagram "></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                
+                <p>
+                  Nuestra informacion es primordial para nuestros clientes 
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span>  0981098335</p>
+                  <p><span>Email:</span> mitaddelmundoecuador_@hotmail.com</p>
+                  <p><span>Las 24 Horas:</span>Lunes a Domingo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center" style="background: pink;">
+              <p>
+                &copy; Copyright <strong>Guido@_Chiquimba</strong>.2020-2021
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries 
+  
+  
+ //posicio de la barrita que señala en el menu
+  
+  -->
+  <script src="Inicio/lib/jquery/jquery.min.js"></script>
+  <script src="Inicio/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="Inicio/lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="Inicio/lib/venobox/venobox.min.js"></script>
+  <script src="Inicio/lib/knob/jquery.knob.js"></script>
+  <script src="Inicio/lib/wow/wow.min.js"></script>
+  <script src="Inicio/lib/parallax/parallax.js"></script>
+  <script src="Inicio/lib/easing/easing.min.js"></script>
+  <script src="Inicio/lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="Inicio/lib/appear/jquery.appear.js"></script>
+  
+  
+          <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  
+  
+  
+  <script src="Inicio/lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="Inicio/contactform/contactform.js"></script>
+
+
+  <script src="Inicio/js/main.js"></script>
+  <script src="Login/appLogin.js"></script>
+</body>
+
+</html>
